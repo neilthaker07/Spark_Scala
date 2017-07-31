@@ -1,0 +1,36 @@
+package sample.project.sparkJava;
+
+import org.easyrules.annotation.Action;
+import org.easyrules.annotation.Condition;
+import org.easyrules.annotation.Rule;
+
+@Rule(name = "Hello World rule", description = "Say Hello to duke's friends only")
+public class RuleEngine {
+
+	private int temperature;
+	private int pressure;
+	private int id;
+
+	@Condition
+	public boolean checkInput() {
+		return temperature <= 5 && pressure <= 5;
+	}
+
+	@Action
+	public void sayHelloToDukeFriend() throws Exception {
+		System.out.println("Safe weather for ID : " + id);
+	}
+	
+	public void setTemperature(int temperature) {
+		this.temperature = temperature;
+	}
+	
+	public void setPressure(int pressure) {
+		this.pressure = pressure;
+	}
+
+	public void setId(int id) {
+		this.id = id;
+	}
+	
+}

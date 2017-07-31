@@ -1,0 +1,42 @@
+package sample.project.sparkJava;
+
+import org.apache.spark.SparkConf;
+import org.apache.spark.SparkContext;
+import org.apache.spark.api.java.JavaPairRDD;
+import org.apache.spark.api.java.JavaRDD;
+
+public class Sample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		String logFile = "/home/neil/Desktop/spark-2.2.0-bin-hadoop2.7/README.md";
+		SparkConf conf = new SparkConf().setAppName("Simple App").setMaster("local[*]");
+		SparkContext sc = new SparkContext(conf);
+
+		
+		JavaRDD<String> textFile = sc.textFile(logFile, 2).cache();
+		JavaPairRDD<String, Integer> counts = textFile
+		    .flatMap(s -> Arrays.asList(s.split(" ")).iterator())
+		    .mapToPair(word -> new Tuple2<>(word, 1))
+		    .reduceByKey((a, b) -> a + b);
+		counts.saveAsTextFile("hdfs://...");
+		
+		
+		
+		
+		
+		
+
+	    
+	    
+	    val logData =  sc.textFile(logFile, 2).cache(); 
+	    
+	    val counts = logData.flatMap(line => line.split(" "))
+	                 .map(word => (word, 1))
+	                 .reduceByKey(_ + _);
+	    counts.saveAsTextFile("/home/neil/Desktop/abc");
+	  
+		
+	}
+}

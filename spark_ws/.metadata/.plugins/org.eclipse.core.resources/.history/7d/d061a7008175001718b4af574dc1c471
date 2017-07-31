@@ -1,0 +1,18 @@
+package sample
+
+import org.apache.spark.SparkContext
+import org.apache.spark.SparkContext._
+import org.apache.spark.SparkConf
+
+object SimpleApp {
+  def main(args: Array[String]) {
+    
+    var logFile = "/home/neil/Desktop/spark-2.2.0-bin-hadoop2.7/README.md"
+    
+    val textFile = sc.textFile()
+    val counts = textFile.flatMap(line => line.split(" "))
+      .map(word => (word, 1))
+      .reduceByKey(_ + _)
+    counts.saveAsTextFile("hdfs://...")
+  }
+}

@@ -1,0 +1,12 @@
+!SESSION 2017-07-30 16:18:42.710 -----------------------------------------------
+eclipse.buildId=4.6.1-vfinal-2017-06-09T11:19:56Z-Typesafe
+java.version=1.8.0_131
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+This is a continuation of log file /home/neil/Neil_Work/MS_SJSU/scala_spark_learning/spark_ws/.metadata/.bak_0.log
+Created Time: 2017-07-30 23:03:39.294
+
+!ENTRY org.eclipse.core.resources 2 10035 2017-07-30 23:03:39.294
+!MESSAGE The workspace will exit with unsaved changes in this session.
