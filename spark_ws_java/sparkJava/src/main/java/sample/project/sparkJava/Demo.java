@@ -1,11 +1,6 @@
 package sample.project.sparkJava;
 
-import java.util.Arrays;
-import java.util.List;
-
-import org.apache.spark.api.java.JavaRDD;
 import org.apache.spark.sql.Dataset;
-import org.apache.spark.sql.Encoders;
 import org.apache.spark.sql.Row;
 import org.apache.spark.sql.SQLContext;
 import org.apache.spark.sql.SparkSession;
@@ -20,8 +15,8 @@ public class Demo {
 		SparkSession spark = SparkSession.builder().master("local")
 				.appName("Rule Engine")
 				.config("spark.some.config.option", "some-value").getOrCreate();
-
-		String inputFile = "/home/neil/Neil_Work/MS_SJSU/scala_spark_learning/spark_ws_java/inputfile.json";
+  
+		String inputFile = "/home/neil/Neil_Work/MS_SJSU/scala_spark_learning/Spark_Scala/spark_ws_java/inputfile.json";
 
 		SQLContext sqlContext = new org.apache.spark.sql.SQLContext(spark);
 

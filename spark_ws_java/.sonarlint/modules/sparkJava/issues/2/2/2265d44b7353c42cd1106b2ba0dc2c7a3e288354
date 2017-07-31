@@ -1,0 +1,11 @@
+
+}squid:CommentedOutCodeLine'"<This block of commented-out lines of code should be removed.(Ã“áÛÿÿÿÿÿHªRMAJORZ
+CODE_SMELL
+xsquid:CommentedOutCodeLine;"<This block of commented-out lines of code should be removed.(ë”±ÁH«RMAJORZ
+CODE_SMELL
+xsquid:CommentedOutCodeLineC"<This block of commented-out lines of code should be removed.(«¥ööH¬RMAJORZ
+CODE_SMELL
+csquid:S1135"2Complete the task associated to this TODO comment.(» æžÿÿÿÿÿH­RINFOZ
+CODE_SMELL
+…squid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(•½ÚÌH®RMINORZ
+CODE_SMELL

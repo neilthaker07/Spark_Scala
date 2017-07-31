@@ -317,3 +317,12 @@ java.io.FileNotFoundException: /home/neil/Neil_Work/MS_SJSU/scala_spark_learning
 	at org.eclipse.osgi.container.SystemModule.stop(SystemModule.java:186) [org.eclipse.osgi_3.10.2.v20150203-1939.jar:na]
 	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle$EquinoxSystemModule$1.run(EquinoxBundle.java:160) [org.eclipse.osgi_3.10.2.v20150203-1939.jar:na]
 	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_131]
+2017-07-30 23:24:18,267 [Worker-5] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: sample.project.:sparkJava:0.0.1-SNAPSHOT @ /home/neil/Neil_Work/MS_SJSU/scala_spark_learning/Spark_Scala/spark_ws_java/sparkJava/pom.xml.
+2017-07-30 23:25:53,089 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-07-30 23:25:53,090 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/neil/Neil_Work/MS_SJSU/scala_spark_learning/Spark_Scala/spark_ws_java/sparkJava/src/main/resources
+2017-07-30 23:25:53,093 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-07-30 23:25:53,093 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/neil/Neil_Work/MS_SJSU/scala_spark_learning/Spark_Scala/spark_ws_java/sparkJava/src/test/resources
+2017-07-31 14:25:33,515 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-07-31 14:25:33,547 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/neil/Neil_Work/MS_SJSU/scala_spark_learning/Spark_Scala/spark_ws_java/sparkJava/src/main/resources
+2017-07-31 14:25:33,550 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-07-31 14:25:33,550 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/neil/Neil_Work/MS_SJSU/scala_spark_learning/Spark_Scala/spark_ws_java/sparkJava/src/test/resources
